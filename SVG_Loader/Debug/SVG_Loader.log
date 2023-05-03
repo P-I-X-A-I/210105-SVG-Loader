@@ -1,0 +1,26 @@
+﻿  mainController.cpp
+  SVG_Loader.cpp
+  Window_Manager_Class.cpp
+c:\users\wtnbks\desktop\development\test\210105-svg-loader\svg_loader\svg_loader\window_manager_class.cpp(439): warning C4065: switch 文に 'default' はありますが 'case' ラベルがありません。
+c:\users\wtnbks\desktop\development\test\210105-svg-loader\svg_loader\svg_loader\window_manager_class.cpp(400): warning C4101: 'winRect': ローカル変数は 1 度も使われていません。
+  コードを生成中...
+OpenGL_Manager_Class.obj : error LNK2019: 未解決の外部シンボル __imp__glewInit@0 が関数 "public: bool __thiscall OpenGL_Manager_Class::init_OpenGL_functions(struct HWND__ *,struct HWND__ *)" (?init_OpenGL_functions@OpenGL_Manager_Class@@QAE_NPAUHWND__@@0@Z) で参照されました。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewAttachShader" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewCompileShader" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewCreateProgram" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewCreateShader" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewGetProgramInfoLog" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewGetProgramiv" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewGetShaderInfoLog" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewGetShaderiv" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewGetUniformLocation" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewLinkProgram" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____glewShaderSource" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____wglewCreateContextAttribsARB" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____wglewChoosePixelFormatARB" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____wglewSwapIntervalEXT" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____WGLEW_ARB_create_context" は未解決です。
+OpenGL_Manager_Class.obj : error LNK2001: 外部シンボル "__imp____WGLEW_ARB_pixel_format" は未解決です。
+glew32.lib : warning LNK4272: ライブラリのコンピューターの種類 'x64' がターゲットのコンピューターの種類' x86' と競合しています
+glew32s.lib : warning LNK4272: ライブラリのコンピューターの種類 'x64' がターゲットのコンピューターの種類' x86' と競合しています
+C:\Users\wtnbks\Desktop\development\TEST\210105-SVG-Loader\SVG_Loader\Debug\SVG_Loader.exe : fatal error LNK1120: 17 件の未解決の外部参照

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="myClass">
+      <UniqueIdentifier>{4ace2cf1-46cf-4023-8c83-f5edfa442645}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Manager_Class.h">
+      <Filter>myClass</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixClass.h">
+      <Filter>myClass</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL_Manager_Class.h">
+      <Filter>myClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_Manager_Class.h">
+      <Filter>myClass</Filter>
+    </ClInclude>
+    <ClInclude Include="mainController.h">
+      <Filter>myClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SVG_Loader.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SVG_Loader_Class.h">
+      <Filter>myClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI_Manager_Class.cpp">
+      <Filter>myClass</Filter>
+    </ClCompile>
+    <ClCompile Include="matrixClass.cpp">
+      <Filter>myClass</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL_Manager_Class.cpp">
+      <Filter>myClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_Manager_Class.cpp">
+      <Filter>myClass</Filter>
+    </ClCompile>
+    <ClCompile Include="mainController.cpp">
+      <Filter>myClass</Filter>
+    </ClCompile>
+    <ClCompile Include="SVG_Loader.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SVG_Loader_Class.cpp">
+      <Filter>myClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SVG_Loader.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="SVG_Loader.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="normal_vs.txt">
+      <Filter>ソース ファイル</Filter>
+    </Text>
+    <Text Include="normal_fs.txt">
+      <Filter>ソース ファイル</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logo-2nd.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="test.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="polyline.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="sumo.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="R1.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="R2.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="R3.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="R4.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="R5.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+    <None Include="R6.svg">
+      <Filter>ソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>
